@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a273532f89ed6906ea2897ea95aa18bb",
+    "content-hash": "f20f2e8af194ec6532922740497edc62",
     "packages": [
         {
             "name": "coenmooij/sudoku",
-            "version": "v0.2.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/coenmooij/sudoku.git",
-                "reference": "7172363f992fcd7f00f573e88e4a99674a7eb366"
+                "reference": "e222281390ae8cc8e6f82e3a4acefb07ab409315"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/coenmooij/sudoku/zipball/7172363f992fcd7f00f573e88e4a99674a7eb366",
-                "reference": "7172363f992fcd7f00f573e88e4a99674a7eb366",
+                "url": "https://api.github.com/repos/coenmooij/sudoku/zipball/e222281390ae8cc8e6f82e3a4acefb07ab409315",
+                "reference": "e222281390ae8cc8e6f82e3a4acefb07ab409315",
                 "shasum": ""
             },
             "require": {
@@ -47,7 +47,7 @@
                 }
             ],
             "description": "Sudoku package for generating, validating and solving sudoku puzzles",
-            "time": "2017-10-30T13:24:27+00:00"
+            "time": "2018-01-16T16:51:52+00:00"
         },
         {
             "name": "psr/cache",
@@ -1050,7 +1050,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "coenmooij/sudoku": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

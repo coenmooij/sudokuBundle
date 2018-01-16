@@ -1,5 +1,5 @@
 services:
-    coenmooij.sudoku.service.sudoku:
+    coenmooij.sudoku.service:
         class: CoenMooij\Sudoku\SudokuService
         arguments:
             - '@coenmooij.sudoku.generator.hint'
