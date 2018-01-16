@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e5d9e3e3aee37344430a56347f46697c",
+    "content-hash": "af9aa2af2e417a0c41679cf912650bd3",
     "packages": [
         {
             "name": "coenmooij/sudoku",
