@@ -1,0 +1,16 @@
+{
+    "name": "coenmooij/sudoku-bundle",
+    "description": "Symfony bundle for coenmooij/sudoku library",
+    "type": "Symfony bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Coen Mooij",
+            "email": "coenmooij@gmail.com"
+        }
+    ],
+    "require": {
+        "coenmooij/sudoku": "^0.2.1",
+        "symfony/http-kernel": "^4.0"
+    }
+}
