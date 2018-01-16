@@ -1,0 +1,39 @@
+services:
+    coenmooij.sudoku.service.sudoku:
+        class: CoenMooij\Sudoku\SudokuService
+        arguments:
+            - '@coenmooij.sudoku.generator.hint'
+            - '@coenmooij.sudoku.generator.solution'
+            - '@coenmooij.sudoku.generator.puzzle'
+            - '@coenmooij.sudoku.solver.backtrack'
+            - '@coenmooij.sudoku.solver.simple'
+
+    coenmooij.sudoku.generator.solution:
+        class: CoenMooij\Sudoku\Generator\HintGenerator
+
+    coenmooij.sudoku.generator.solution:
+        class: CoenMooij\Sudoku\Generator\SolutionGenerator
+        arguments:
+            - '@coenmooij.sudoku.solver.backtrack'
+
+    coenmooij.sudoku.generator.puzzle:
+        class: CoenMooij\Sudoku\Generator\PuzzleGenerator
+        arguments:
+            - '@coenmooij.sudoku.validator.dig'
+
+    coenmooij.sudoku.validator.dig:
+        class: CoenMooij\Sudoku\Validator\DigValidator
+        arguments:
+            - '@coenmooij.sudoku.solver.backtrack'
+
+    coenmooij.sudoku.solver.backtrack:
+        class: CoenMooij\Sudoku\Solver\BacktrackSolver
+
+    coenmooij.sudoku.solver.simple:
+        class: CoenMooij\Sudoku\Solver\SimpleSolver
+
+    coenmooij.sudoku.serializer.grid:
+        class: CoenMooij\Sudoku\Serializer\GridSerializer
+
+    coenmooij.sudoku.validator.grid:
+        class: CoenMooij\Sudoku\Validator\GridValidator
