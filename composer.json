@@ -19,8 +19,5 @@
         "php": "^7.1",
         "coenmooij/sudoku": "^0.2.1",
         "symfony/framework-bundle": "^4.0"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^6.5"
     }
 }
