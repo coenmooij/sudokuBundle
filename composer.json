@@ -3,7 +3,7 @@
     "description": "Symfony bundle for coenmooij/sudoku library",
     "type": "symfony-bundle",
     "license": "MIT",
-    "version":"0.2",
+    "version":"0.3",
     "authors": [
         {
             "name": "Coen Mooij",
