@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f20f2e8af194ec6532922740497edc62",
+    "content-hash": "259531089936c642d9172d8c799608fb",
     "packages": [
         {
             "name": "coenmooij/sudoku",
-            "version": "dev-master",
+            "version": "1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/coenmooij/sudoku.git",
-                "reference": "e222281390ae8cc8e6f82e3a4acefb07ab409315"
+                "reference": "5506a1948e5b2b8763c105f1c16c33c6696dd57d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/coenmooij/sudoku/zipball/e222281390ae8cc8e6f82e3a4acefb07ab409315",
-                "reference": "e222281390ae8cc8e6f82e3a4acefb07ab409315",
+                "url": "https://api.github.com/repos/coenmooij/sudoku/zipball/5506a1948e5b2b8763c105f1c16c33c6696dd57d",
+                "reference": "5506a1948e5b2b8763c105f1c16c33c6696dd57d",
                 "shasum": ""
             },
             "require": {
@@ -42,12 +42,11 @@
             "authors": [
                 {
                     "name": "Coen Mooij",
-                    "email": "coenmooij@gmail.com",
-                    "homepage": "https://coenmooij.nl"
+                    "email": "coenmooij@gmail.com"
                 }
             ],
             "description": "Sudoku package for generating, validating and solving sudoku puzzles",
-            "time": "2018-01-16T16:51:52+00:00"
+            "time": "2018-01-17T12:32:58+00:00"
         },
         {
             "name": "psr/cache",
@@ -1050,9 +1049,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "coenmooij/sudoku": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
