@@ -1,6 +1,8 @@
-> Warning - This package is not maintained and the underlying `coenmooij/sudoku` package has known bugs.
->
-> Warning - The package is no longer available through composer
+> [!WARNING]
+> This package is not maintained and the underlying `coenmooij/sudoku` package has known bugs.
+
+> [!CAUTION]
+> The package is no longer available through composer/packagist
 
 # sudokuBundle
 Symfony bundle for the coenmooij/sudoku library
